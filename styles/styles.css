@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -10,7 +16,7 @@ nav a {
 }
 
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 
 main img {
@@ -58,4 +64,13 @@ footer {
 
 p {
     padding: 0px;
+}
+
+/*Class Selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }

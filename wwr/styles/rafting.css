@@ -7,8 +7,6 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    /* --secondary-color: #f4a261; */
-    /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
     --accent2-color: #e9c46a;
@@ -17,10 +15,10 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
+/* body { */
+/* font-family: var(--body-font); */
+/* color: var(--accent1-color); */
+/* } */
 
 header {
     background-color: white;
@@ -35,10 +33,10 @@ footer {
 }
 
 h1,
-h2 {
+/* h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
+} */
 
 nav,
 p,

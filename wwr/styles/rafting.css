@@ -7,7 +7,7 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
+    /* --secondary-color: #f4a261; */
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -86,7 +86,6 @@ nav {
 }
 
 article {
-    position: left;
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
